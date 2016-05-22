@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		DDC676721CEBB5A700D9E8FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC676711CEBB5A700D9E8FB /* AppDelegate.swift */; };
-		DDC676741CEBB5A700D9E8FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC676731CEBB5A700D9E8FB /* ViewController.swift */; };
+		DDC676741CEBB5A700D9E8FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC676731CEBB5A700D9E8FB /* MainViewController.swift */; };
 		DDC676771CEBB5A700D9E8FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC676751CEBB5A700D9E8FB /* Main.storyboard */; };
 		DDC676791CEBB5A700D9E8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC676781CEBB5A700D9E8FB /* Assets.xcassets */; };
 		DDC6767C1CEBB5A700D9E8FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC6767A1CEBB5A700D9E8FB /* LaunchScreen.storyboard */; };
+		DDC676861CED6A9300D9E8FB /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC676851CED6A9300D9E8FB /* CircleView.swift */; };
+		DDC6768A1CEF916700D9E8FB /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC676891CEF916700D9E8FB /* ExercisesViewController.swift */; };
+		DDC6768C1CEF930600D9E8FB /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6768B1CEF930600D9E8FB /* Exercise.swift */; };
+		DDC6768E1CEF94F700D9E8FB /* ExercisesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6768D1CEF94F700D9E8FB /* ExercisesTableViewCell.swift */; };
+		DDC676901CEF957A00D9E8FB /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6768F1CEF957A00D9E8FB /* CheckBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DDC6766E1CEBB5A700D9E8FB /* Tabata Extreme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabata Extreme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC676711CEBB5A700D9E8FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDC676731CEBB5A700D9E8FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDC676731CEBB5A700D9E8FB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DDC676761CEBB5A700D9E8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDC676781CEBB5A700D9E8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC6767B1CEBB5A700D9E8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDC6767D1CEBB5A700D9E8FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC676851CED6A9300D9E8FB /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		DDC676891CEF916700D9E8FB /* ExercisesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		DDC6768B1CEF930600D9E8FB /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		DDC6768D1CEF94F700D9E8FB /* ExercisesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesTableViewCell.swift; sourceTree = "<group>"; };
+		DDC6768F1CEF957A00D9E8FB /* CheckBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				DDC676711CEBB5A700D9E8FB /* AppDelegate.swift */,
-				DDC676731CEBB5A700D9E8FB /* ViewController.swift */,
+				DDC676731CEBB5A700D9E8FB /* MainViewController.swift */,
+				DDC676891CEF916700D9E8FB /* ExercisesViewController.swift */,
+				DDC6768D1CEF94F700D9E8FB /* ExercisesTableViewCell.swift */,
+				DDC6768F1CEF957A00D9E8FB /* CheckBoxView.swift */,
+				DDC676851CED6A9300D9E8FB /* CircleView.swift */,
+				DDC6768B1CEF930600D9E8FB /* Exercise.swift */,
 				DDC676751CEBB5A700D9E8FB /* Main.storyboard */,
 				DDC676781CEBB5A700D9E8FB /* Assets.xcassets */,
 				DDC6767A1CEBB5A700D9E8FB /* LaunchScreen.storyboard */,
@@ -96,6 +111,7 @@
 				TargetAttributes = {
 					DDC6766D1CEBB5A700D9E8FB = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = TVPTTUCV3Z;
 					};
 				};
 			};
@@ -135,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC676741CEBB5A700D9E8FB /* ViewController.swift in Sources */,
+				DDC676861CED6A9300D9E8FB /* CircleView.swift in Sources */,
+				DDC676741CEBB5A700D9E8FB /* MainViewController.swift in Sources */,
 				DDC676721CEBB5A700D9E8FB /* AppDelegate.swift in Sources */,
+				DDC6768A1CEF916700D9E8FB /* ExercisesViewController.swift in Sources */,
+				DDC6768C1CEF930600D9E8FB /* Exercise.swift in Sources */,
+				DDC6768E1CEF94F700D9E8FB /* ExercisesTableViewCell.swift in Sources */,
+				DDC676901CEF957A00D9E8FB /* CheckBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +272,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tabata Extreme/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattfunprojects.Tabata-Extreme";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +286,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tabata Extreme/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattfunprojects.Tabata-Extreme";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +315,7 @@
 				DDC676821CEBB5A700D9E8FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
