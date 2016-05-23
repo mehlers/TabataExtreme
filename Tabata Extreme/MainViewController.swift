@@ -11,10 +11,12 @@ import UIKit
 class MainViewController: UIViewController {
     
     @IBOutlet var circleV: UIView!
+    @IBOutlet var exerciseV: UIView!
     @IBOutlet var playButton: UIButton!
     @IBOutlet var pauseButton: UIButton!
     
     var circleView:CircleView!
+    var exerciseView:ExerciseView!
     var circlePaused:Bool = false
 
     @IBAction func PlayButton(sender: AnyObject) {
@@ -22,6 +24,7 @@ class MainViewController: UIViewController {
             circleView.resumeAnimation()
         } else {
             addCircleView()
+            addExerciseView()
         }
         playButton.hidden = true
         pauseButton.hidden = false
@@ -60,5 +63,15 @@ class MainViewController: UIViewController {
         // Animate the drawing of the circle over the course of 10 second
         circleView.animateCircle(10.0)
     }
+    
+    func addExerciseView() {
+        // Create a new ExerciseView
+        exerciseView = ExerciseView(frame: CGRectMake(0, 0, exerciseV.frame.size.width, exerciseV.frame.size.height))
+        exerciseV.addSubview(exerciseView)
+        
+        // Animate the drawing of the circle over the course of 10 second
+//        circleView.animateCircle(10.0)
+    }
+
 }
 
