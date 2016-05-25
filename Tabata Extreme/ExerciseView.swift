@@ -41,7 +41,7 @@ class ExerciseView: UIView {
     var exercise2Image:UIImage!
     var exercise2ImageView:UIImageView!
 
-
+    // comment
     override init(frame:CGRect) {
         super.init(frame:frame)
         
