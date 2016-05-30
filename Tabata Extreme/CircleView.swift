@@ -13,20 +13,20 @@ class CircleView: UIView {
     var circleLayer: CAShapeLayer!
     var loadingLabel: UILabel!
     
-    var topGearImage:UIImage!
-    var topGearImageView:UIImageView!
-    
-    
+//    var topGearImage:UIImage!
+//    var topGearImageView:UIImageView!
+//    
+//    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.clearColor()
         
-        topGearImage = UIImage(named: "CircleBackground")
-        topGearImageView = UIImageView(image: topGearImage)
-        topGearImageView.frame = CGRectMake(0, 0, frame.size.width, frame.size.height)
-        self.addSubview(topGearImageView)
-        
+//        topGearImage = UIImage(named: "CircleBackground")
+//        topGearImageView = UIImageView(image: topGearImage)
+//        topGearImageView.frame = CGRectMake(0, 0, frame.size.width, frame.size.height)
+//        self.addSubview(topGearImageView)
+//        
         
         // Use UIBezierPath as an easy way to create the CGPath for the layer.
         // The path should be the entire circle.

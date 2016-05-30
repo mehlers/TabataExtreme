@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD7313111CFCD86E0037DFFE /* CircleBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7313101CFCD86E0037DFFE /* CircleBackgroundView.swift */; };
 		DDB1DDEE1CF2A49E00084354 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB1DDED1CF2A49E00084354 /* ExerciseView.swift */; };
 		DDC676721CEBB5A700D9E8FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC676711CEBB5A700D9E8FB /* AppDelegate.swift */; };
 		DDC676741CEBB5A700D9E8FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC676731CEBB5A700D9E8FB /* MainViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD7313101CFCD86E0037DFFE /* CircleBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackgroundView.swift; sourceTree = "<group>"; };
 		DDB1DDED1CF2A49E00084354 /* ExerciseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		DDC6766E1CEBB5A700D9E8FB /* Tabata Extreme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabata Extreme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC676711CEBB5A700D9E8FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				DDC6768D1CEF94F700D9E8FB /* ExercisesTableViewCell.swift */,
 				DDC6768F1CEF957A00D9E8FB /* CheckBoxView.swift */,
 				DDC676851CED6A9300D9E8FB /* CircleView.swift */,
+				DD7313101CFCD86E0037DFFE /* CircleBackgroundView.swift */,
 				DDB1DDED1CF2A49E00084354 /* ExerciseView.swift */,
 				DDC6768B1CEF930600D9E8FB /* Exercise.swift */,
 				DDC676751CEBB5A700D9E8FB /* Main.storyboard */,
@@ -162,6 +165,7 @@
 				DDC6768C1CEF930600D9E8FB /* Exercise.swift in Sources */,
 				DDC6768E1CEF94F700D9E8FB /* ExercisesTableViewCell.swift in Sources */,
 				DDC676901CEF957A00D9E8FB /* CheckBoxView.swift in Sources */,
+				DD7313111CFCD86E0037DFFE /* CircleBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

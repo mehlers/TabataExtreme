@@ -11,11 +11,13 @@ import UIKit
 class MainViewController: UIViewController {
     
     @IBOutlet var circleV: UIView!
+    @IBOutlet var circleBackgroundV: UIView!
     @IBOutlet var exerciseV: UIView!
     @IBOutlet var playButton: UIButton!
     @IBOutlet var pauseButton: UIButton!
     
     var circleView:CircleView!
+    var circleBackgroundView:CircleBackgroundView!
     var exerciseView:ExerciseView!
     var circlePaused:Bool = false
 
@@ -47,12 +49,20 @@ class MainViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         // running addCircleView here because this is after auto layout has run
         //addCircleView()
+        addCircleBackgroundView()
         pauseButton.hidden = true
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func addCircleBackgroundView() {
+        // Create a new CircleView
+        circleBackgroundView = CircleBackgroundView(frame: CGRectMake(0, 0, circleBackgroundV.frame.size.width, circleBackgroundV.frame.size.height))
+        circleBackgroundV.addSubview(circleBackgroundView)
+        
     }
     
     func addCircleView() {        

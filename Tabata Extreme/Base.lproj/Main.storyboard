@@ -18,9 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dGk-4Y-tc6" userLabel="CircleBackgroundView">
+                                <rect key="frame" x="36" y="77" width="248" height="248"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bwY-Do-dQb">
                                 <rect key="frame" x="36" y="77" width="248" height="248"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcG-fT-E3b">
                                 <rect key="frame" x="20" y="490" width="62" height="48"/>
@@ -63,8 +67,10 @@
                             <constraint firstItem="bwY-Do-dQb" firstAttribute="top" secondItem="BUa-uQ-Prm" secondAttribute="bottom" constant="15" id="8ct-j6-n80"/>
                             <constraint firstItem="jvf-R6-m1h" firstAttribute="leading" secondItem="bwY-Do-dQb" secondAttribute="trailing" constant="-211" id="KnL-t0-5Sb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="PbU-0e-CM1" secondAttribute="trailing" constant="10" id="PJL-xn-ntn"/>
+                            <constraint firstItem="dGk-4Y-tc6" firstAttribute="top" secondItem="BUa-uQ-Prm" secondAttribute="bottom" constant="15" id="Ugf-ke-Y8b"/>
                             <constraint firstItem="BUa-uQ-Prm" firstAttribute="top" secondItem="Iei-eU-Psz" secondAttribute="bottom" constant="8" id="X7a-jH-Rm3"/>
                             <constraint firstItem="bwY-Do-dQb" firstAttribute="top" secondItem="jvf-R6-m1h" secondAttribute="bottom" constant="-211" id="b4C-WT-rC5"/>
+                            <constraint firstItem="dGk-4Y-tc6" firstAttribute="centerX" secondItem="zdP-a6-fEf" secondAttribute="centerX" id="fvD-hK-AU0"/>
                             <constraint firstItem="Sh2-Ke-0rT" firstAttribute="top" secondItem="PbU-0e-CM1" secondAttribute="bottom" constant="39" id="kHt-Ha-GOf"/>
                             <constraint firstAttribute="leadingMargin" secondItem="ZcG-fT-E3b" secondAttribute="leading" id="nrD-m9-WpC"/>
                             <constraint firstItem="c6l-eY-iSk" firstAttribute="leading" secondItem="zdP-a6-fEf" secondAttribute="leadingMargin" constant="9" id="vPs-Kn-aBJ"/>
@@ -72,6 +78,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="circleBackgroundV" destination="dGk-4Y-tc6" id="9KS-zN-u0f"/>
                         <outlet property="circleV" destination="bwY-Do-dQb" id="qYp-aJ-nAw"/>
                         <outlet property="exerciseV" destination="jvf-R6-m1h" id="Ent-Z8-Xfv"/>
                         <outlet property="pauseButton" destination="ZcG-fT-E3b" id="mLv-jV-4hP"/>
