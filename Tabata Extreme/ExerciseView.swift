@@ -47,13 +47,13 @@ class ExerciseView: UIView {
         
         self.backgroundColor = UIColor.clearColor()
         
-        exercise1Image = UIImage(named: "Situp1")
+        exercise1Image = UIImage(named: "Sit-up1")
         exercise1ImageView = UIImageView(image: exercise1Image)
         exercise1ImageView.frame = CGRectMake(0, 0, frame.size.width, frame.size.height)
         exercise1ImageView.alpha = 0.0
         self.addSubview(exercise1ImageView)
         
-        exercise2Image = UIImage(named: "Situp2")
+        exercise2Image = UIImage(named: "Sit-up2")
         exercise2ImageView = UIImageView(image: exercise2Image)
         exercise2ImageView.frame = CGRectMake(0, 0, frame.size.width, frame.size.height)
         exercise2ImageView.alpha = 0.0

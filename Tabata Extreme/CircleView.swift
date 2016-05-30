@@ -22,7 +22,7 @@ class CircleView: UIView {
         super.init(frame: frame)
         self.backgroundColor = UIColor.clearColor()
         
-        topGearImage = UIImage(named: "gearFrame5")
+        topGearImage = UIImage(named: "CircleBackground")
         topGearImageView = UIImageView(image: topGearImage)
         topGearImageView.frame = CGRectMake(0, 0, frame.size.width, frame.size.height)
         self.addSubview(topGearImageView)
@@ -30,13 +30,13 @@ class CircleView: UIView {
         
         // Use UIBezierPath as an easy way to create the CGPath for the layer.
         // The path should be the entire circle.
-        let circlePath = UIBezierPath(arcCenter: CGPoint(x: frame.size.width / 2.0, y: frame.size.height / 2.0), radius: (frame.size.width - 10)/2.0, startAngle: CGFloat(-M_PI_2), endAngle: CGFloat((M_PI * 2.0) - M_PI_2), clockwise: true)
+        let circlePath = UIBezierPath(arcCenter: CGPoint(x: frame.size.width / 2.0, y: frame.size.height / 2.0), radius: (frame.size.width - 10)/2.2, startAngle: CGFloat(-M_PI_2), endAngle: CGFloat((M_PI * 2.0) - M_PI_2), clockwise: true)
         
         // Setup the CAShapeLayer with the path, colors, and line width
         circleLayer = CAShapeLayer()
         circleLayer.path = circlePath.CGPath
         circleLayer.fillColor = UIColor.clearColor().CGColor
-        circleLayer.strokeColor = UIColor.redColor().CGColor
+        circleLayer.strokeColor = UIColor.greenColor().CGColor
         circleLayer.lineWidth = 5.0;
         
         // Don't draw the circle initially
